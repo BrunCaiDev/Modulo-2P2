@@ -48,6 +48,8 @@ def divisao(n1,n2):
    
     if n1 == 0:     
         return f'Esta invalido'
+    elif n2 == 0:
+        return f'Esta invalido'
     else:
         return f'Resultado da divisão entre {n1} e {n2} = {n1 / n2}'
 
@@ -55,4 +57,5 @@ def divisao(n1,n2):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
